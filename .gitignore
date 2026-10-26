@@ -1,0 +1,44 @@
+# Local credentials and personal runtime data
+.env
+.env.*
+!.env.example
+data/
+private/
+local-wechat-bridge/
+*.private.json
+*.dpapi
+*.db
+*.db-*
+*.sqlite*
+*.pem
+*.key
+# Python, build outputs and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+*.log
+*.tmp
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+# Local voice experiments and original media
+output/
+shitao-voice-trial/
+*.m4a
+*.mp3
+*.wav
+*.mp4
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.zip
+*.7z
+*.exe
+*.dll

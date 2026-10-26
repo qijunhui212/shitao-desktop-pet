@@ -1,0 +1,5 @@
+# Optional Windows-only native bridge readers; no personal keys/binaries included.
+psutil>=5.9
+pycryptodome>=3.20
+zstandard>=0.22
+pywin32>=306; sys_platform == "win32"
